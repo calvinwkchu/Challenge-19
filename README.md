@@ -25,11 +25,11 @@ Below are the results on our development of the neural network, where we will di
 - With the base model, we had used two hidden layers and hidden nodes of 80 & 30 respectively. We had chosen the two hidden layers so that our model is a deep learning model able to handle complex data i.e. given the number of features we have; the nodes were chosen to optimize both performance and to handle complexity of data. For the activiations, we used RELU for the first two and signmoid on the output layer; RELU is chosen as it seems best suited at targeting positive non-linear data and sigmoid is chosen for the output as it is ideal for binary classification.
 
 
-<img src="Resources/nn_definintion.png">
+<img src="Resources/nn_definition.png">
 
 - Unfortunately our base model was unable to pass the 75% threshold of performance as shown below.
 
-<img src="Resources/nn_definintion.png">
+<img src="Resources/base_performance.png">
 
 - To optimize the model, we did the following:
    
@@ -46,6 +46,8 @@ Below are the results on our development of the neural network, where we will di
     <img src="Resources/nn_updated_definition.png">
 
 - Despite these changes however, our optimized model was unable to pass the 75% threshold and was only able to see minor gains.
+
+<img src="Resources/optimized_performance.png">
 
 ## Summary
 
